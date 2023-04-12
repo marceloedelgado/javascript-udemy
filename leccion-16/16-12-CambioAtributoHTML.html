@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Manejo del DOM con Javascript</title>
+    
+</head>
+<body>
+    <h1 id="titulo">Cambio de Valor de Atributos HTML</h1>
+    <button onclick="mostrar()">Mostrar</button>
+    <br/>
+    <img id="imagen"src="images/javascript.png">
+    <script>
+        function mostrar(){
+
+            document.getElementById('imagen').src = 'images/html5.png';
+        }    
+    </script>
+
+
+</body>
+</html>
